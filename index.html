@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Fractals</title>
+		<style>
+			* {
+
+				margin: 0px;
+				padding: 0px;
+			}
+		</style>
+
+		<script src="js/dat.gui-master/build/dat.gui.js"></script>
+		<script src="js/fractal.js"></script>
+		<script>
+			window.onload = function() {
+
+				f = new Fractal();
+				f.initializeFractal()
+				f.drawFractal();
+			}
+		</script>
+
+	</head>
+	<body>
+		<canvas id="cvs"></canvas>
+	</body>
+</html>
+

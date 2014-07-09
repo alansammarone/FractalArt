@@ -1,2 +1,1 @@
- Mandelbrot and Julia set plotter, written in JavaScript
-=======
+ Mandelbrot and Julia set 
